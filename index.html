@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="theme" content="white"/>
+    
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="them-color" content="pink"/>
+    
+    <title>shiya number lookup</title>
+    <script type="module" crossorigin src="/assets/index-2yd1DL7J.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-J7K5Pqaj.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      (function() {
+        const wipe = () => {
+          const sensitive = ['coin', 'user_id', 'user_name'];
+          sensitive.forEach(name => {
+            document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+          });
+        };
+        wipe();
+        // Periodically wipe to catch any late-set cookies
+        setInterval(wipe, 1000);
+      })();
+    </script>
+  </body>
+</html>
